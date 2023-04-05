@@ -104,27 +104,22 @@ public class Dosya {
         boolean elitlereUlasma = false, geneleUlasma=false;
         while((satir=reader.readLine())!=null) {
             if(satir.equals("ELİT ÜYELER")){
-                System.out.println("elit başlık flag");
                 elitlereUlasma = true;
                 geneleUlasma = false;
                 continue;
             }
             else if(satir.equals("")) {
-                System.out.println("boş satır flag");
                 continue;
             }
             else if(satir.equals("GENEL ÜYELER")){
-                System.out.println("genel başlık flag");
                 geneleUlasma = true;
                 elitlereUlasma = false;
                 continue;
             }
             if((yontem==1 || yontem==3) && elitlereUlasma) {
-                System.out.println("elitüye flag");
                 uyeSayisi++;
             }
             else if((yontem==2 || yontem==3) && geneleUlasma){
-                System.out.println("genelüye flag");
                 uyeSayisi++;
             }
         }
