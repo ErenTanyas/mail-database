@@ -17,6 +17,16 @@ bir üstünlük yoktur, iki üyenin de bilgileri aynı dosyada saklanacaktır. S
 
 Kullanıcı bir üye oluşturduğunda, proje dizini içinde bir "kullanicilar.txt" dosyasi oluşacaktır ve dosya program aracılığıyla uygun biçimde yapılan-
 dırılacaktır. Her üye eklendiğinde dosya otomatik olarak güncellenecektir. Kullanıcı programdan çıkış yapsa bile dosyadaki bilgiler kaybolmayacaktır.
+Aşağıda "kullanicilar.txt" dosyasinin bir örneği verilmiştir:
+```
+ELİT ÜYELER
+isim1 soyisim1  bir@gmail.com
+isim2 soyisim2  iki@gmail.com
+
+GENEL ÜYELER
+isim3 soyisim3  uc@gmail.com
+isim4 soyisim4  dort@gmail.com
+```
 
 ## Mail Gönderme Menüsü
 
